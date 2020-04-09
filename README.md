@@ -2,9 +2,9 @@
 
 ## Description
 
-A gtk project for drive the drone remotely.
+A gtk application for driving the drone remotely.
 
-With this app, you can see the location of the drone, and the vision of the drone (the video stream the drone recorded). And you can control the drone with a game pad or a joystick controller with another small app (That's my plan). 
+With this app, you can see the location, and the vision of the drone (the video stream the drone recorded). And you can control the drone with a game pad or a joystick controller with another small app (That's my plan). 
 
 ## Preview
 
