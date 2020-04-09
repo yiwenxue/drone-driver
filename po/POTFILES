@@ -1,0 +1,4 @@
+data/com.github.yiwenxue.dronesimulation.desktop.in
+data/com.github.yiwenxue.dronesimulation.appdata.xml.in
+data/com.github.yiwenxue.dronesimulation.gschema.xml
+src/dronesimulation-window.ui

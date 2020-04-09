@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.2 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkWindow" id="mainwindow">
+    <property name="width_request">900</property>
+    <property name="height_request">700</property>
+    <property name="can_focus">False</property>
+    <property name="border_width">5</property>
+    <property name="focus_on_map">False</property>
+    <child type="titlebar">
+      <object class="GtkHeaderBar" id="headbar">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="title" translatable="yes">map</property>
+        <property name="show_close_button">True</property>
+        <child>
+          <object class="GtkButton" id="ifmapfloat">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="stock">gtk-convert</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkToggleButton" id="ifcenter">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="stock">gtk-cancel</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="position">1</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="GtkOverlay">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="opacity">0.5</property>
+        <child>
+          <object class="GtkBox" id="main_box">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <placeholder/>
+            </child>
+          </object>
+          <packing>
+            <property name="pass_through">True</property>
+            <property name="index">-1</property>
+          </packing>
+        </child>
+        <child type="overlay">
+          <object class="GtkOverlay" id="flaot_overlay">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="halign">start</property>
+            <property name="valign">start</property>
+            <property name="margin_left">10</property>
+            <property name="margin_top">10</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <child>
+              <object class="GtkBox" id="float_box">
+                <property name="width_request">240</property>
+                <property name="height_request">180</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="halign">end</property>
+                <property name="valign">end</property>
+                <property name="orientation">vertical</property>
+                <child>
+                  <placeholder/>
+                </child>
+              </object>
+              <packing>
+                <property name="index">-1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="pass_through">True</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkViewport" id="map_viewport">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <child>
+      <placeholder/>
+    </child>
+  </object>
+  <object class="GtkViewport" id="video_viewport">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <child>
+      <object class="GtkScrolledWindow">
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <property name="shadow_type">in</property>
+        <child>
+          <object class="GtkViewport">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="hexpand">True</property>
+                <property name="vexpand">True</property>
+                <property name="resource">/com/github/yiwenxue/dronesimulation/icon/bg.jpeg</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

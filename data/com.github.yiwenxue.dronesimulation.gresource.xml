@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/github/yiwenxue/dronesimulation">
+      <file>ui/dronesimulation-window.ui</file>
+      <file>icon/bg.jpeg</file>
+      <file>icon/doom2ability.jpg</file>
+  </gresource>
+</gresources>
