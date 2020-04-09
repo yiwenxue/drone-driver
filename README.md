@@ -8,7 +8,7 @@ With this app, you can see the location of the drone, and the vision of the dron
 
 ## Preview
 
-| ![mapfloat](/home/yiwen/program/gtk_project/dronesimulation/mapfloat.png) | ![mapexpand](/home/yiwen/program/gtk_project/dronesimulation/mapexpand.png) |
+| ![mapfloat](data/screen/mapfloat.png) | ![mapexpand](data/screen/mapexpand.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                         Floating map                         |                          Tiled map                           |
 
@@ -42,5 +42,5 @@ cd build/src
 
 ## Todo
 
-- [ ] Show the drone in map
+- [x] Show the drone in map
 - [ ] Show the vision with gstreamer 
