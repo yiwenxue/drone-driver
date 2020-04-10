@@ -8,9 +8,10 @@ With this app, you can see the location, and the vision of the drone (the video 
 
 ## Preview
 
-| ![mapfloat](data/screen/mapfloat.png) | ![mapexpand](data/screen/mapexpand.png) |
+|               Floating map                |                          Tiled map                           |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|                         Floating map                         |                          Tiled map                           |
+| ![mapfloat](data/screen/mapfloat.png) | ![mapexpand](data/screen/mapexpand.png) |
+| ![](data/screen/driveplate_map_float.png) | ![driveplate_map_tiled](data/screen/driveplate_map_tiled.png) |
 
 ## Build & Run & Installation
 
@@ -43,4 +44,5 @@ cd build/src
 ## Todo
 
 - [x] Show the drone in map
-- [ ] Show the vision with gstreamer 
+- [ ] Show the vision with gstreamer
+- [x] Draw driving plate 
