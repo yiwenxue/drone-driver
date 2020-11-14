@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.yiwenxue.dronesimulation",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.32",
+    "runtime-version": "master",
     "sdk": "org.gnome.Sdk",
     "command": "dronesimulation",
     "finish-args": [
@@ -27,13 +27,33 @@
     ],
     "modules": [
         {
+            "name" : "libchamplain-gtk",
+            "buildsystem": "meson",
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://gitlab.gnome.org/GNOME/libchamplain.git"
+                }
+            ]
+        },
+        {
+            "name" : "libchamplain",
+            "buildsystem": "meson",
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://gitlab.gnome.org/GNOME/libchamplain.git"
+                }
+            ]
+        },
+        {
             "name": "dronesimulation",
             "builddir": true,
             "buildsystem": "meson",
             "sources": [
                 {
                     "type": "git",
-                    "url": "file:///home/yiwen/program/gtk_project/dronesimulation"
+                    "url": "https://github.com/yiwenxue/drone-driver.git"
                 }
             ]
         }

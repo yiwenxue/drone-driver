@@ -115,7 +115,6 @@ create_marker ()
   return marker;
 }
 
-
 int clutter_actor_set_center_pos(ClutterActor *actor, gfloat x, gfloat y)
 {
     gfloat width, height;
